@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => {
       },
     },
     build: {
-      outDir: '../backend/static',
+      outDir: process.env.VERCEL ? 'dist' : '../backend/static',
       emptyOutDir: true,
     },
   }
