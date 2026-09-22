@@ -51,7 +51,7 @@ export default function Home() {
             </h1>
             <div className="mt-9 flex flex-col gap-7 sm:flex-row sm:items-end">
               <p className="max-w-md text-base leading-relaxed text-white/50 md:text-lg">
-                Веб-дизайн, 3D и айдентика для брендов, которым важно не просто выглядеть красиво, а работать на результат.
+                Веб-дизайн, код и айдентика для брендов, которым важно не просто выглядеть красиво, а работать на результат.
               </p>
             <a href="#works" onClick={() => trackEvent('cta_click', { metadata: { label: 'view_work' } })} className="btn-primary shrink-0 !px-6 !py-3.5 text-white ">Смотреть работу <span>↓</span></a>
             </div>

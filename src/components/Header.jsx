@@ -27,9 +27,9 @@ export default function Header() {
         </Link>
 
         <div className="hidden items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-white/35 md:flex">
-          <span className="status-dot">Сервер не отвечает</span>
-          <span className="mx-2 text-white/15">/</span>
-          <span>Volgograd → worldwide</span>
+          {/* <span className="status-dot">Минимализм как смысл жизни</span>*/}
+          {/*   <span className="mx-2 text-white/15">/</span>*/}
+          <span>Russia → worldwide</span>
         </div>
 
         <nav className="flex items-center gap-1">
